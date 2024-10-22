@@ -1,6 +1,6 @@
 package com.house.transport.controller;
 
-import com.github.dockerjava.api.exception.NotFoundException;
+import com.house.transport.exception.custom.NotFoundException;
 import com.house.transport.model.Review;
 import com.house.transport.service.abstracts.ReviewService;
 import jakarta.validation.Valid;
